@@ -1,7 +1,6 @@
-cat > README.md << 'EOF'
-# 📊 Churn Analysis with Interactive Plotly Dashboards
+# Churn Analysis with Interactive Plotly Dashboards
 
-## 🔎 Overview
+##  Overview
 This project explores **customer churn** using an interactive and visual-first approach. Instead of just static plots, it leverages **Plotly** to build dashboards that allow filtering, switching features, and exploring customer behavior in detail.  
 
 The notebook contains:
@@ -9,24 +8,13 @@ The notebook contains:
 - **Feature engineering** (`BalanceToSalary` ratio)
 - **Interactive visualizations** to understand churn patterns  
 
----
 
-## 📂 Project Structure
-.
-├── Churn_analysis.ipynb # Jupyter notebook with analysis and dashboards
-├── Churn_Modelling.csv # Dataset used for churn analysis
-├── .gitignore # Ignore unnecessary files
-├── LICENSE # Open-source license
-└── README.md # Project documentation
-
-yaml
-Copy code
 
 ---
 
-## 📊 Main Plotly Dashboards
+##  Main Plotly Dashboards
 
-### 1️⃣ Balance vs Salary Scatter (with churn filter)
+### 1️ Balance vs Salary Scatter (with churn filter)
 An interactive scatter plot:
 - **X-axis:** Estimated Salary  
 - **Y-axis:** Account Balance  
@@ -38,7 +26,7 @@ An interactive scatter plot:
 
 ---
 
-### 2️⃣ Feature Comparison by Churn (Box Plot with dropdown)
+### 2️ Feature Comparison by Churn (Box Plot with dropdown)
 An interactive box plot that compares **different features** across churn status:
 - **X-axis:** Customer status (*Retained* vs *Churned*)  
 - **Y-axis:** Selectable feature (Credit Score, Age, Tenure, Balance, Number of Products, Estimated Salary, or Balance-to-Salary ratio)  
@@ -47,3 +35,9 @@ An interactive box plot that compares **different features** across churn status
 👉 This allows quick comparisons of feature distributions and highlights which factors might influence churn.
 
 ---
+
+
+**Insight:**  
+- Churned customers have slightly lower **Credit Scores**.  
+- Churn is more frequent in middle-aged groups (~35–45).  
+- Customers with **2+ products** are less likely to churn, showing loyalty effect.
