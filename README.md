@@ -36,8 +36,18 @@ An interactive box plot that compares **different features** across churn status
 
 ---
 
+### ３ Correlation Heatmap
+- Heatmap of numeric features vs churn.  
 
 **Insight:**  
+- **Age** and **Balance** are positively correlated with churn.  
+- **Number of Products** and **IsActiveMember** are negatively correlated with churn.  
+- **Gender** and **Geography** also show noticeable trends.
+
+---
+
+
+ ### RESULTS:
 - Churned customers have slightly lower **Credit Scores**.  
 - Churn is more frequent in middle-aged groups (~35–45).  
 - Customers with **2+ products** are less likely to churn, showing loyalty effect.
